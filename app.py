@@ -434,7 +434,7 @@ st.markdown("""
 col_left, col_gap, col_right = st.columns([5, 0.4, 4])
 
 with col_left:
-    st.markdown('<div class="input-card">', unsafe_allow_html=True)
+   
     
     # We use the key to let session state auto-sync with the widget
     topic = st.text_input(
